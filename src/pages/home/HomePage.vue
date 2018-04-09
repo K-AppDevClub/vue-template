@@ -69,29 +69,6 @@ export default {
       })
       .catch(err => console.log(err));
     },
-    // upload2(file) {
-    //   const apiURL = 'https://westcentralus.api.cognitive.microsoft.com/vision/v1.0';
-    //   const config = {
-    //     headers: {
-    //       'Content-Type': 'multipart/form-data',
-    //     },
-    //   };
-
-    //   const formData = new FormData();
-    //   formData.append('imagefile', file[0]);
-    //   formData.append('apikey', '7ce5fcd29c7b46c08f2bb3f7007de8b0');
-    //   formData.append('predict', 1);
-    //   this.isLoading = true;
-    //   this.meatImage = window.URL.createObjectURL(file[0]);
-
-    //   axios.post(apiURL, formData, config)
-    //   .then((res) => {
-    //     this.isLoading = false;
-    //     this.result = res.data.result;
-    //     console.log(res);
-    //   })
-    //   .catch(err => console.log(err));
-    // },
   },
   computed: {
     rounded() {
