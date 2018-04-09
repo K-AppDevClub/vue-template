@@ -56,6 +56,11 @@ export default {
           routeName: 'test',
           icon: 'fa-info',
         },
+        {
+          label: 'Standing',
+          routeName: 'standing',
+          icon: 'fa-apple',
+        },
       ],
     };
   },
